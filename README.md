@@ -4,7 +4,7 @@
 Video camera streaming server application is a cross-platform application that runs<br>
 either android or IOS. It establishes server connection and listens to a client to connect to it.<br>
 Once the connection is established, frames are sent to the client(On desktop) through the local network<br>
-The client side of this application can be found on the following github repo([Video camera streaming client](https://github.com/djaliloua/ClientAppStream))
+The client side of this application can be found on the following github repo([Video camera streaming Client](https://github.com/djaliloua/ClientAppStream))
 
 ### Used libraries
 
