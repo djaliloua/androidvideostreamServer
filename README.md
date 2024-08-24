@@ -1,3 +1,22 @@
+## Video camera streaming server
+
+### Project description
+Video camera streaming server application is a cross-platform application that runs<br>
+either android or IOS. It establishes server connection and listens to a client to connect to it.<br>
+Once the connection is established, frames are sent to the client(On desktop) through the local network<br>
+The client side of this application can be found on the following github repo([Video camera streaming client](https://github.com/djaliloua/ClientAppStream))
+
+### Used libraries
+
+ - socket
+ - Kivy
+ - kivymd
+ - opencv
+
+
+
+
+## Steps to compile the source code to andorid
 ### Install WSL2 for windows 11/10
 type in powershell
 wsl --install
