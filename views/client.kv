@@ -1,0 +1,18 @@
+#:import StreamingBox CommonLibrary.UserControls.ClientVideo.StreamingBox
+#:import platform kivy.utils.platform
+StreamingBox:
+    id: box
+    app_obj: app
+    Image:
+        id: img
+        allow_stretch: True
+        keep_ratio: True
+        canvas.before:
+            PushMatrix
+            Rotate:
+                id: rot
+                angle: 0 if platform=="android" else -180
+                origin: self.center
+        canvas.after:
+            PopMatrix
+

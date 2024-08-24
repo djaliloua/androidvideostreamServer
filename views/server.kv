@@ -1,0 +1,18 @@
+#:import CamBox CommonLibrary.CamControl.CamBox
+#:import LOCALHOST CommonLibrary.utility.LOCALHOST
+
+CamBox:
+    orientation: "vertical"
+    Camera:
+        id: camera
+        allow_stretch: True
+        keep_ratio: True
+        resolution: (640, 480)
+	    play: True
+	    app_obj: app
+	MDLabel:
+        text: f"ip: {LOCALHOST}"
+        text_color: "blue"
+        font_style: "Overline"
+        size_hint: 0.4, None
+        pos_hint: {'center_x': 0.28, 'center_y':0.5}
