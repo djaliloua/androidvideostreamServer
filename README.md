@@ -13,7 +13,7 @@ The client side of this application can be found on the following github repo([V
  - kivymd
  - opencv
 
-
+### Python version: 3.10.x
 
 
 ## Steps to compile the source code to andorid
